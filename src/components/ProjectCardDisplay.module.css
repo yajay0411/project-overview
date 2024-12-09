@@ -1,12 +1,13 @@
 .flex-row {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   padding: 20px;
+  overflow-x: scroll;
 }
 
 .flex-col {

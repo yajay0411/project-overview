@@ -3,7 +3,6 @@
   width: 100%;
   border: 2px solid #999999;
   border-radius: 8px;
-  overflow-x: scroll;
 }
 .table {
   width: 100%;
@@ -50,6 +49,7 @@
 
 .on-track {
   width: 175px;
+  min-width: 120px;
   height: 40px;
   padding: 0px 15px 0px 15px;
   gap: 10px;
@@ -63,6 +63,7 @@
 
 .in-review {
   width: 175px;
+  min-width: 120px;
   height: 40px;
   padding: 0px 15px 0px 15px;
   gap: 10px;
@@ -76,6 +77,7 @@
 
 .in-revision {
   width: 175px;
+  min-width: 120px;
   height: 40px;
   padding: 0px 15px 0px 15px;
   gap: 10px;
@@ -89,6 +91,7 @@
 
 .delayed {
   width: 175px;
+  min-width: 120px;
   height: 40px;
   padding: 0px 15px 0px 15px;
   gap: 10px;
@@ -98,4 +101,10 @@
   text-align: center;
   background: #f42e2e;
   border: 1px solid #808080;
+}
+
+@media (max-width: 600px) {
+  .table-container {
+    overflow-x: scroll;
+  }
 }
