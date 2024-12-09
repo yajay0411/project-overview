@@ -1,0 +1,104 @@
+/* TableStyles.css */
+.table-container {
+  width: 100%;
+  border: 2px solid #999999;
+  border-radius: 8px;
+  overflow-x: scroll;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th,
+.td {
+  text-align: left;
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #808080;
+}
+
+.tr:hover {
+  background-color: #f1f1f1;
+}
+
+.center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LinearProgress {
+  width: 100%;
+  height: 16px !important;
+  border-radius: 8px;
+  background-color: #e0e0e0 !important;
+  min-width: 100px;
+}
+
+.LinearProgress > span {
+  height: 100%;
+  background: #87d37c;
+  border-radius: 8px;
+}
+
+.percentage {
+  position: relative;
+  left: -50%;
+}
+
+.not-started {
+  width: 175px;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  background: #b0b0b0;
+  border: 1px solid #808080;
+}
+
+.in-progress {
+  width: 175px;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  background: #4a90e2;
+  border: 1px solid #808080;
+}
+
+.completed {
+  width: 175px;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  background: #4caf50;
+  border: 1px solid #808080;
+}
+
+.archived {
+  width: 175px;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  background: #607d8b;
+  border: 1px solid #808080;
+}
