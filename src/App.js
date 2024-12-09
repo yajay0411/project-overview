@@ -12,6 +12,7 @@ function App() {
       <main className="page-wrapper">
         <Router>
           <Routes>
+            <Route path="/" element={<Project />} />
             <Route path="/project" element={<Project />} />
             <Route path="/test" element={<Test />} />
           </Routes>
