@@ -81,7 +81,7 @@ const TaskCardDisplay = () => {
               css[StatusObj[status.label]]
             }`}
           >
-            <span> {status.label}</span>
+            <span>{status.label}</span>
             <span>
               {tasks.filter((task) => task.status === status.label).length}
             </span>

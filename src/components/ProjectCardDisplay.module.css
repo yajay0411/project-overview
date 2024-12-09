@@ -44,6 +44,19 @@
   background: #607d8b;
 }
 
+.on-track {
+  background-color: #ffd700;
+}
+.in-review {
+  background: #3b78a3;
+}
+.in-revision {
+  background: #3e4b4f;
+}
+.delayed {
+  background: #f42e2e;
+}
+
 .view-more-btn {
   font-size: 12px;
   color: #1677ff;
